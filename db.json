@@ -1,208 +1,214 @@
 {
-"users":[
+  "users": [
     {
-        "name":"Subash",
-        "fullname":"Rajan",
-        "email":"some@clayfin.com",
-        "phone":123456789,
-        "empolyee_id":"N107",
-        "reporting_to":{
-            "name":"Smitra Ashokan",
-            "role":"Technical Lead"
-        },
-        "personal":{
-            "personal_mail":"some@gmail.com",
-            "landline":"",
-            "DOB":"16-04-1985",
-            "gender":"Male",
-            "nationality":"Indian",
-            "religion":"Hindu"
-        },
-        "basic_info":{
-            "date_of_join":"03-05-2021",
-            "role":"Administrator",
-            "location":"Chennai",
-            "primary_skill":"Admin",
-            "employee_type":"Permanant",
-            "total_experience":"2 Years 1 Month",
-            "skills":["React", "Java", "React-Native"]
-            
-        }   
+      "name": "Subash",
+      "fullname": "Rajan",
+      "txId": "01e4dsa",
+      "avatar": "https://mdbcdn.b-cdn.net/img/new/avatars/3.webp",
+      "email": "some@clayfin.com",
+      "phone": 123456789,
+      "empolyee_id": "N107",
+      "reporting_to": {
+        "name": "Smitra Ashokan",
+        "role": "Technical Lead"
+      },
+      "personal": {
+        "personal_mail": "some@gmail.com",
+        "landline": "",
+        "DOB": "16-04-1985",
+        "gender": "Male",
+        "nationality": "Indian",
+        "religion": "Hindu"
+      },
+      "basic_info": {
+        "date_of_join": "03-05-2021",
+        "role": "Administrator",
+        "location": "Chennai",
+        "primary_skill": "Admin",
+        "employee_type": "Permanant",
+        "total_experience": "2 Years 1 Month",
+        "skills": ["React", "Java", "React-Native"]
+      }
     },
     {
-        "name":"Vishal",
-        "fullname":"Durge",
-        "email":"some@clayfin.com",
-        "phone":123456789,
-        "empolyee_id":"8934",
-        "reporting_to":{
-            "name":"Kathiresan",
-            "role":"Senior Technical Trainer"
-        },
-        "personal":{
-            "personal_mail":"some@gmail.com",
-            "landline":"",
-            "DOB":"16-04-1985",
-            "gender":"Male",
-            "nationality":"Indian",
-            "religion":"Hindu"
-        },
-        "basic_info":{
-            "date_of_join":"03-05-2021",
-            "role":"Software Trainee",
-            "location":"Chennai",
-            "primary_skill":"Trainee",
-            "employee_type":"Permanant",
-            "total_experience":"2 Years 1 Month",
-            "skills":["React", "HTML/CSS", "React-Native"]
-            
-        }   
+      "name": "Vishal",
+      "fullname": "Durge",
+      "email": "some@clayfin.com",
+      "phone": 123456789,
+      "empolyee_id": "8934",
+      "txId": "01e4dfe",
+      "avatar": "https://mdbcdn.b-cdn.net/img/new/avatars/4.webp",
+      "reporting_to": {
+        "name": "Kathiresan",
+        "role": "Senior Technical Trainer"
+      },
+      "personal": {
+        "personal_mail": "some@gmail.com",
+        "landline": "",
+        "DOB": "16-04-1985",
+        "gender": "Male",
+        "nationality": "Indian",
+        "religion": "Hindu"
+      },
+      "basic_info": {
+        "date_of_join": "03-05-2021",
+        "role": "Software Trainee",
+        "location": "Chennai",
+        "primary_skill": "Trainee",
+        "employee_type": "Permanant",
+        "total_experience": "2 Years 1 Month",
+        "skills": ["React", "HTML/CSS", "React-Native"]
+      }
     },
     {
-        "name":"Shivam",
-        "fullname":"Rathod",
-        "email":"some@clayfin.com",
-        "phone":123456789,
-        "empolyee_id":"8935",
-        "reporting_to":{
-            "name":"Kathiresan",
-            "role":"Senior Technical Trainer"
-        },
-        "personal":{
-            "personal_mail":"some@gmail.com",
-            "landline":"",
-            "DOB":"16-04-1985",
-            "gender":"Male",
-            "nationality":"Indian",
-            "religion":"Hindu"
-        },
-        "basic_info":{
-            "date_of_join":"03-05-2021",
-            "role":"Software Trainee",
-            "location":"Chennai",
-            "primary_skill":"Trainee",
-            "employee_type":"Permanant",
-            "total_experience":"2 Years 1 Month",
-            "skills":["React", "HTML/CSS", "React-Native"]
-            
-        }   
+      "name": "Shivam",
+      "fullname": "Rathod",
+      "email": "some@clayfin.com",
+      "phone": 123456789,
+      "empolyee_id": "8935",
+      "txId": "01e4dqw",
+      "avatar": "https://mdbcdn.b-cdn.net/img/new/avatars/8.webp",
+      "reporting_to": {
+        "name": "Kathiresan",
+        "role": "Senior Technical Trainer"
+      },
+      "personal": {
+        "personal_mail": "some@gmail.com",
+        "landline": "",
+        "DOB": "16-04-1985",
+        "gender": "Male",
+        "nationality": "Indian",
+        "religion": "Hindu"
+      },
+      "basic_info": {
+        "date_of_join": "03-05-2021",
+        "role": "Software Trainee",
+        "location": "Chennai",
+        "primary_skill": "Trainee",
+        "employee_type": "Permanant",
+        "total_experience": "2 Years 1 Month",
+        "skills": ["React", "HTML/CSS", "React-Native"]
+      }
     },
     {
-        "name":"Vishal",
-        "fullname":"Singh",
-        "email":"some@clayfin.com",
-        "phone":123456789,
-        "empolyee_id":"8936",
-        "reporting_to":{
-            "name":"Kathiresan",
-            "role":"Senior Technical Trainer"
-        },
-        "personal":{
-            "personal_mail":"some@gmail.com",
-            "landline":"",
-            "DOB":"16-04-1985",
-            "gender":"Male",
-            "nationality":"Indian",
-            "religion":"Hindu"
-        },
-        "basic_info":{
-            "date_of_join":"03-05-2021",
-            "role":"Software Trainee",
-            "location":"Chennai",
-            "primary_skill":"Trainee",
-            "employee_type":"Permanant",
-            "total_experience":"2 Years 1 Month",
-            "skills":["React", "HTML/CSS", "React-Native"]
-            
-        }   
+      "name": "Vishal",
+      "fullname": "Singh",
+      "email": "some@clayfin.com",
+      "phone": 123456789,
+      "empolyee_id": "8936",
+      "txId": "01e4d3r3",
+      "avatar": "https://mdbcdn.b-cdn.net/img/new/avatars/5.webp",
+      "reporting_to": {
+        "name": "Kathiresan",
+        "role": "Senior Technical Trainer"
+      },
+      "personal": {
+        "personal_mail": "some@gmail.com",
+        "landline": "",
+        "DOB": "16-04-1985",
+        "gender": "Male",
+        "nationality": "Indian",
+        "religion": "Hindu"
+      },
+      "basic_info": {
+        "date_of_join": "03-05-2021",
+        "role": "Software Trainee",
+        "location": "Chennai",
+        "primary_skill": "Trainee",
+        "employee_type": "Permanant",
+        "total_experience": "2 Years 1 Month",
+        "skills": ["React", "HTML/CSS", "React-Native"]
+      }
     },
     {
-        "name":"Uzair",
-        "fullname":"Ansari",
-        "email":"some@clayfin.com",
-        "phone":123456789,
-        "empolyee_id":"8937",
-        "reporting_to":{
-            "name":"Kathiresan",
-            "role":"Senior Technical Trainer"
-        },
-        "personal":{
-            "personal_mail":"some@gmail.com",
-            "landline":"",
-            "DOB":"16-04-1985",
-            "gender":"Male",
-            "nationality":"Indian",
-            "religion":"Hindu"
-        },
-        "basic_info":{
-            "date_of_join":"03-05-2021",
-            "role":"Software Trainee",
-            "location":"Chennai",
-            "primary_skill":"Trainee",
-            "employee_type":"Permanant",
-            "total_experience":"2 Years 1 Month",
-            "skills":["React", "HTML/CSS", "React-Native"]
-            
-        }   
+      "name": "Uzair",
+      "fullname": "Ansari",
+      "email": "some@clayfin.com",
+      "phone": 123456789,
+      "empolyee_id": "8937",
+      "txId": "01e4r4a",
+      "avatar": "https://mdbcdn.b-cdn.net/img/new/avatars/7.webp",
+      "reporting_to": {
+        "name": "Kathiresan",
+        "role": "Senior Technical Trainer"
+      },
+      "personal": {
+        "personal_mail": "some@gmail.com",
+        "landline": "",
+        "DOB": "16-04-1985",
+        "gender": "Male",
+        "nationality": "Indian",
+        "religion": "Hindu"
+      },
+      "basic_info": {
+        "date_of_join": "03-05-2021",
+        "role": "Software Trainee",
+        "location": "Chennai",
+        "primary_skill": "Trainee",
+        "employee_type": "Permanant",
+        "total_experience": "2 Years 1 Month",
+        "skills": ["React", "HTML/CSS", "React-Native"]
+      }
     },
     {
-        "name":"Avadhut",
-        "fullname":"Shinde",
-        "email":"some@clayfin.com",
-        "phone":123456789,
-        "empolyee_id":"8938",
-        "reporting_to":{
-            "name":"Kathiresan",
-            "role":"Senior Technical Trainer"
-        },
-        "personal":{
-            "personal_mail":"some@gmail.com",
-            "landline":"",
-            "DOB":"16-04-1985",
-            "gender":"Male",
-            "nationality":"Indian",
-            "religion":"Hindu"
-        },
-        "basic_info":{
-            "date_of_join":"03-05-2021",
-            "role":"Software Trainee",
-            "location":"Chennai",
-            "primary_skill":"Trainee",
-            "employee_type":"Permanant",
-            "total_experience":"2 Years 1 Month",
-            "skills":["React", "HTML/CSS", "React-Native"]
-            
-        }   
+      "name": "Avadhut",
+      "fullname": "Shinde",
+      "email": "some@clayfin.com",
+      "phone": 123456789,
+      "empolyee_id": "8938",
+      "txId": "01edfe9",
+      "avatar": "https://mdbcdn.b-cdn.net/img/new/avatars/3.webp",
+      "reporting_to": {
+        "name": "Kathiresan",
+        "role": "Senior Technical Trainer"
+      },
+      "personal": {
+        "personal_mail": "some@gmail.com",
+        "landline": "",
+        "DOB": "16-04-1985",
+        "gender": "Male",
+        "nationality": "Indian",
+        "religion": "Hindu"
+      },
+      "basic_info": {
+        "date_of_join": "03-05-2021",
+        "role": "Software Trainee",
+        "location": "Chennai",
+        "primary_skill": "Trainee",
+        "employee_type": "Permanant",
+        "total_experience": "2 Years 1 Month",
+        "skills": ["React", "HTML/CSS", "React-Native"]
+      }
     },
     {
-        "name":"Pratik",
-        "fullname":"Ganjale",
-        "email":"some@clayfin.com",
-        "phone":123456789,
-        "empolyee_id":"8939",
-        "reporting_to":{
-            "name":"Kathiresan",
-            "role":"Senior Technical Trainer"
-        },
-        "personal":{
-            "personal_mail":"some@gmail.com",
-            "landline":"",
-            "DOB":"16-04-1985",
-            "gender":"Male",
-            "nationality":"Indian",
-            "religion":"Hindu"
-        },
-        "basic_info":{
-            "date_of_join":"03-05-2021",
-            "role":"Software Trainee",
-            "location":"Chennai",
-            "primary_skill":"Trainee",
-            "employee_type":"Permanant",
-            "total_experience":"2 Years 1 Month",
-            "skills":["React", "HTML/CSS", "React-Native"]
-            
-        }   
+      "name": "Pratik",
+      "fullname": "Ganjale",
+      "email": "some@clayfin.com",
+      "phone": 123456789,
+      "empolyee_id": "8939",
+      "txId": "093hy75",
+      "avatar": "https://mdbcdn.b-cdn.net/img/new/avatars/3.webp",
+      "reporting_to": {
+        "name": "Kathiresan",
+        "role": "Senior Technical Trainer"
+      },
+      "personal": {
+        "personal_mail": "some@gmail.com",
+        "landline": "",
+        "DOB": "16-04-1985",
+        "gender": "Male",
+        "nationality": "Indian",
+        "religion": "Hindu"
+      },
+      "basic_info": {
+        "date_of_join": "03-05-2021",
+        "role": "Software Trainee",
+        "location": "Chennai",
+        "primary_skill": "Trainee",
+        "employee_type": "Permanant",
+        "total_experience": "2 Years 1 Month",
+        "skills": ["React", "HTML/CSS", "React-Native"]
+      }
     }
-]
-
+  ]
 }

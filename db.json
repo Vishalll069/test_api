@@ -224,7 +224,7 @@
       "workstationIP": "127.0.1.1"
     },
     "responseBody": {
-      "sadadBillers": [
+      "sadadCategories": [
         {
           "id": "1",
           "categoryId": "12344",
@@ -312,7 +312,7 @@
       "workstationIP": "127.0.1.1"
     },
     "responseBody": {
-      "sadadCategories": [
+      "sadadBillers": [
         {
           "id": "1",
           "sadadCategory": "sadadCat2",

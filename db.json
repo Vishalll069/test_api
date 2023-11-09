@@ -211,41 +211,198 @@
       }
     }
   ],
-  "admin": { "responseHeader": {
-          "deviceId": "a3137da539e47d5f",
-          "channel": "ADMIN",
-          "trackingId": "922161798916414410305",
-          "timestamp": "2023-10-06 11:20:10:333",
-          "serviceName": "transaction:view",
-          "locale": "en_US",
-          "moduleCode": "ADM_BANK_SYSPARAM_MOD",
-          "businessFunctionCode": null,
-          "workstationIP": "127.0.1.1"
+  "sadadBillerDetails": {
+    "responseHeader": {
+      "deviceId": "a3137da539e47d5f",
+      "channel": "ADMIN",
+      "trackingId": "922161798916414410305",
+      "timestamp": "2023-10-06 11:20:10:333",
+      "serviceName": "sadadBiller:view",
+      "locale": "en_US",
+      "moduleCode": "ADM_BANK_SYSPARAM_MOD",
+      "businessFunctionCode": null,
+      "workstationIP": "127.0.1.1"
+    },
+    "responseBody": {
+      "sadadBillers": [
+        {
+          "id": "1",
+          "categoryId": "12344",
+          "categoryNameEn": "Verify",
+          "categoryNameAr": "SEQ",
+          "status": "Active"
         },
-        "responseBody": {
-          "categories": [
-            {
-              "id": "1",
-              "categoryId": "12344",
-              "categoryNameEn": "Verify",
-              "categoryNameAr": "SEQ",
-              "status": "Active"
-            },
-            {
-              "id": "2",
-              "categoryId": "12345",
-              "categoryNameEn": "AUTH",
-              "categoryNameAr": "PARALLEL",
-              "status": "Rejected"
-            },
-            {
-              "id": "3",
-              "categoryId": "12346",
-              "categoryNameEn": "Confirm",
-              "categoryNameAr": "SEQ",
-              "status": "Pending For Authorization"
-            }
-          ]
+        {
+          "id": "2",
+          "categoryId": "12345",
+          "categoryNameEn": "AUTH",
+          "categoryNameAr": "PARALLEL",
+          "status": "Rejected"
+        },
+        {
+          "id": "3",
+          "categoryId": "12346",
+          "categoryNameEn": "Confirm",
+          "categoryNameAr": "SEQ",
+          "status": "Pending For Authorization"
         }
-      }
+      ]
     }
+  },
+  "sadadBillerUpdate": {
+    "responseHeader": {
+      "deviceId": "a3137da539e47d5f",
+      "channel": "ADMIN",
+      "trackingId": "922161798916414410305",
+      "timestamp": "2023-10-04 11:20:10:333",
+      "serviceName": "sadadBiller:edit",
+      "locale": "en_US",
+      "moduleCode": null,
+      "businessFunctionCode": null,
+      "workstationIP": "127.0.1.1",
+      "success": true
+    },
+    "responseBody": {
+      "message": "updated record sent for approval successful"
+    },
+    "errors": null
+  },
+  "sadadBillerDelete": {
+    "responseHeader": {
+      "channel": "ADMIN",
+      "deviceId": "a3137da539e47d5f",
+      "locale": "en_US",
+      "serviceName": "sadadBiller:delete",
+      "trackingId": "922161798916414410305",
+      "timestamp": "2023-10-04 15:13:07.374",
+      "workstationIP": "127.0.1.1",
+      "success": true
+    },
+    "responseBody": {
+      "message": "SADAD Biller is deleted successful and send to authorization"
+    },
+    "errors": null
+  },
+  "sadadBillerCreate": {
+    "responseHeader": {
+      "channel": "ADMIN",
+      "deviceId": "a3137da539e47d5f",
+      "locale": "en_US",
+      "serviceName": "sadadBiller:create",
+      "trackingId": "922161798916414410305",
+      "timestamp": "2023-10-06 15:13:07.374",
+      "workstationIP": "127.0.1.1",
+      "success": true
+    },
+    "responseBody": {
+      "message": "SADAD Biller is deleted successful and send to authorization"
+    },
+    "errors": null
+  },
+  "sadadCategoryDetails": {
+    "responseHeader": {
+      "deviceId": "a3137da539e47d5f",
+      "channel": "ADMIN",
+      "trackingId": "922161798916414410305",
+      "timestamp": "2023-10-06 11:20:10:333",
+      "serviceName": "sadadCategory:view",
+      "locale": "en_US",
+      "moduleCode": "ADM_BANK_SYSPARAM_MOD",
+      "businessFunctionCode": null,
+      "workstationIP": "127.0.1.1"
+    },
+    "responseBody": {
+      "sadadCategories": [
+        {
+          "id": "1",
+          "sadadCategory": "sadadCat2",
+          "billerCode": "122133242",
+          "beneficiaryType": "Some Type",
+          "subscriptionNameEn": "subEn",
+          "subscriptionNameAr": "subAr",
+          "billerNameEn": "rafiq",
+          "billerNameAr": "rafiq",
+          "rechargeAmount": "1000",
+          "serviceType": "Prepaid",
+          "status": "Active"
+        },
+        {
+          "id": "2",
+          "sadadCategory": "sadadCat1",
+          "billerCode": "122133242",
+          "beneficiaryType": "Some Type",
+          "subscriptionNameEn": "subEn",
+          "subscriptionNameAr": "subAr",
+          "billerNameEn": "rafiq",
+          "billerNameAr": "rafiq",
+          "rechargeAmount": "1000",
+          "serviceType": "Both",
+          "status": "Rejected"
+        },
+        {
+          "id": "3",
+          "sadadCategory": "sadadCat2",
+          "billerCode": "122133242",
+          "beneficiaryType": "Some Type",
+          "subscriptionNameEn": "subEn",
+          "subscriptionNameAr": "subAr",
+          "billerNameEn": "rafiq",
+          "billerNameAr": "rafiq",
+          "rechargeAmount": "1000",
+          "serviceType": "Postpaid",
+          "status": "Pending For Authorization"
+        }
+      ]
+    }
+  },
+  "sadadCategoryUpdate": {
+    "responseHeader": {
+      "deviceId": "a3137da539e47d5f",
+      "channel": "ADMIN",
+      "trackingId": "922161798916414410305",
+      "timestamp": "2023-10-04 11:20:10:333",
+      "serviceName": "sadadCategory:edit",
+      "locale": "en_US",
+      "moduleCode": null,
+      "businessFunctionCode": null,
+      "workstationIP": "127.0.1.1",
+      "success": true
+    },
+    "responseBody": {
+      "message": "updated record sent for approval successful"
+    },
+    "errors": null
+  },
+  "sadadCategoryDelete": {
+    "responseHeader": {
+      "channel": "ADMIN",
+      "deviceId": "a3137da539e47d5f",
+      "locale": "en_US",
+      "serviceName": "sadadCategory:delete",
+      "trackingId": "922161798916414410305",
+      "timestamp": "2023-10-04 15:13:07.374",
+      "workstationIP": "127.0.1.1",
+      "success": true
+    },
+    "responseBody": {
+      "message": "SADAD Biller is deleted successful and send to authorization"
+    },
+    "errors": null
+  },
+  "sadadCategoryCreate": {
+    "responseHeader": {
+      "channel": "ADMIN",
+      "deviceId": "a3137da539e47d5f",
+      "locale": "en_US",
+      "serviceName": "sadadCategory:create",
+      "trackingId": "922161798916414410305",
+      "timestamp": "2023-10-06 15:13:07.374",
+      "workstationIP": "127.0.1.1",
+      "success": true
+    },
+    "responseBody": {
+      "message": "SADAD Biller is deleted successful and send to authorization"
+    },
+    "errors": null
+  }
+}

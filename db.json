@@ -211,10 +211,7 @@
       }
     }
   ],
-  "admin": {
-    "sadad": {
-      "data": {
-        "responseHeader": {
+  "admin": { "responseHeader": {
           "deviceId": "a3137da539e47d5f",
           "channel": "ADMIN",
           "trackingId": "922161798916414410305",
@@ -252,5 +249,3 @@
         }
       }
     }
-  }
-}

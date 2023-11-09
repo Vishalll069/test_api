@@ -211,7 +211,7 @@
       }
     }
   ],
-  "sadadBillerDetails": {
+  "sadadCategoryDetails": {
     "responseHeader": {
       "deviceId": "a3137da539e47d5f",
       "channel": "ADMIN",
@@ -299,7 +299,7 @@
     },
     "errors": null
   },
-  "sadadCategoryDetails": {
+  "sadadBillerDetails": {
     "responseHeader": {
       "deviceId": "a3137da539e47d5f",
       "channel": "ADMIN",

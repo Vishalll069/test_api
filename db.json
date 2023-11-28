@@ -276,7 +276,7 @@
       "trackingId": "922161798916414410305",
       "timestamp": "2023-10-04 15:13:07.374",
       "workstationIP": "127.0.1.1",
-      "success": true
+      "success": false
     },
     "responseBody": {
       "message": "SADAD Biller is deleted successful and send to authorization"
